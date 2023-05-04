@@ -13,7 +13,7 @@ with col1:
                 "different languages.In application you will detect just 12 of them"
                 "You can use any of them as source and target language in this application."
                 "The source language is not specified, it is language is automatic."                
-                " \n\n View Source Code on [Github](https://github.com/ivanmarinoff?tab=repositories)")
+                " \n\n View Source Code on [Github](https://github.com/ivanmarinoff/Easy-Translate)")
 
     option_language = st.selectbox(
         '## Which Language would you like translate?',
