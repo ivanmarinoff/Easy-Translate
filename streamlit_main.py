@@ -10,7 +10,7 @@ with col1:
                 "it's free and simple."
                 "You can either use a string  to translate but the text must be equal to or less than 5000 "
                 "character.Google Translate supports 108 "
-                "different languages.In application you will detect just 12 of them"
+                "different languages.In the application, you will detect the most popular 12 of them."
                 "You can use any of them as source and target language in this application."
                 "The source language is not specified, it is language is automatic."                
                 " \n\n View Source Code on [Github](https://github.com/ivanmarinoff/Easy-Translate)")
