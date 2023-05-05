@@ -36,11 +36,12 @@ if len(text_input.split(" ")) > 700:
 
 
 def update_text_with_example():
-    print("Translated...")
+    text_input = st.empty
+    # print("Translated...")
     # st.session_state.text_input = "Your translated text"
 
 
-st.button("*See An Example*", type='secondary', help="Click to see an example of the text you will be translated.",
+st.button("*Translate*", type='secondary', help="Click here to see the translated text.",
           on_click=update_text_with_example)
 translator = EasyGoogleTranslateOne(
     source_language='auto',
