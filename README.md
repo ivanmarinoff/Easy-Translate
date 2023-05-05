@@ -6,17 +6,24 @@ This library does not need an api key or something else to use, it's free and si
 You can either use a string or a file to translate but the text must be equal to or less than 5000 character. 
 You can split your text into 5000 characters to translate more.
 
-Google Translate supports 108 different languages. In application you will detect just 12 of them.
+Google Translate supports 108 different languages. In the application, you will detect the most popular 12 of them.
 You can use any of them as source and target language in this application.
 Detailed language list can be found here:  https://cloud.google.com/translate/docs/languages
 
 
 ## Installation:
+This App don't need to install, because its worked on a Streamlit’s open-source app framework:
+```
+https://streamlit.io/
+```
+Just open the following link, and enjoy:
+```
+https://ivanmarinoff-easy-translate-streamlit-main-i4wwy9.streamlit.app/
+```
 The easiest way to install easygoogletranslate is to download it from PyPI. Then you will be able to use the library.
 
 ```
 pip install streamlit_main
-
 ```
 
 
@@ -35,4 +42,7 @@ result = translator.translate(text_input)
 ```
 
 ## Disclaimer
-This package is not an official library and is not associated with Google. This package is only developed for educational and test purposes, can be removed if desired. Do not use this package on a real life project. If you want to use a translate service on a real project use official [Google Cloud Translate](https://cloud.google.com/translate/) service.
+This package is not an official library and is not associated with Google. 
+This package is only developed for educational and test purposes, can be removed if desired.
+Do not use this package on a real life project. If you want to use a translate service on a real project use official 
+[Google Cloud Translate](https://cloud.google.com/translate/) service.
